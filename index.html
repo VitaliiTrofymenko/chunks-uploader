@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>asd</title>
+    <style type="text/css">
+        .progress
+        {
+            background-color: #bbbbbb;
+            border-radius: 4px;
+            height: 10px;
+            width: 250px;
+            margin-top: 20px;
+        }
+        .progress .progress-bar
+        {
+            height: 100%;
+            background-color: #09b820;
+            border-radius: 10px;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <input id="file" type="file" name="file" required>
+        <input type="submit">
+    </form>
+    <div class="progress">
+        <div class="progress-bar" style="width: 0%">
+        </div>
+    </div>
+    <a href="/uploads.php" target="_blank">Последний файл</a>
+</body>
+<script src="loader.js"></script>
+</html>
