@@ -1,6 +1,4 @@
-## Task 2
-
-Demo: [Demo](http://trofymenko.zzz.com.ua).
+## Chunks file uploader
 
 1. **loader.js** - client-side code.
 2. **upload.php** - server-side code.
